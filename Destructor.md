@@ -21,9 +21,22 @@ The program defines a class `Demo` with:
    - Create an instance of the `Demo` class.
    - Delete the object using the `del` keyword.
 ## Program
-Add code Here
+~~~~~~~~~~~~~
+class Demo:
+    def __init__(self):
+        print("Hello World!")
 
+    def __del__(self):
+        print("Hello from the __del__ method.")
+
+# Create and delete the object
+obj = Demo()
+del obj
+~~~~~~~~~~~~~~~~~
 ## 🧪 Output
+<img width="1254" height="215" alt="WhatsApp Image 2026-05-28 at 9 14 12 PM" src="https://github.com/user-attachments/assets/fda1eef0-d4fb-4946-8740-d6d1c28a7b92" />
+
 
 ## Result
+thus the program has verified
 
